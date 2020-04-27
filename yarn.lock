@@ -1498,24 +1498,24 @@
     "@typescript-eslint/typescript-estree" "2.21.0"
     eslint-scope "^5.0.0"
 
-"@typescript-eslint/parser@2.20.0":
-  version "2.20.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-2.20.0.tgz#608e5bb06ba98a415b64ace994c79ab20f9772a9"
-  integrity sha512-o8qsKaosLh2qhMZiHNtaHKTHyCHc3Triq6aMnwnWj7budm3xAY9owSZzV1uon5T9cWmJRJGzTFa90aex4m77Lw==
+"@typescript-eslint/experimental-utils@2.29.0":
+  version "2.29.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-2.29.0.tgz#3cb8060de9265ba131625a96bbfec31ba6d4a0fe"
+  integrity sha512-H/6VJr6eWYstyqjWXBP2Nn1hQJyvJoFdDtsHxGiD+lEP7piGnGpb/ZQd+z1ZSB1F7dN+WsxUDh8+S4LwI+f3jw==
   dependencies:
-    "@types/eslint-visitor-keys" "^1.0.0"
-    "@typescript-eslint/experimental-utils" "2.20.0"
-    "@typescript-eslint/typescript-estree" "2.20.0"
-    eslint-visitor-keys "^1.1.0"
+    "@types/json-schema" "^7.0.3"
+    "@typescript-eslint/typescript-estree" "2.29.0"
+    eslint-scope "^5.0.0"
+    eslint-utils "^2.0.0"
 
-"@typescript-eslint/parser@^2.16.0":
-  version "2.21.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-2.21.0.tgz#4f200995517c3d5fc5ef51b17527bc948992e438"
-  integrity sha512-VrmbdrrrvvI6cPPOG7uOgGUFXNYTiSbnRq8ZMyuGa4+qmXJXVLEEz78hKuqupvkpwJQNk1Ucz1TenrRP90gmBg==
+"@typescript-eslint/parser@2.29.0", "@typescript-eslint/parser@^2.16.0":
+  version "2.29.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-2.29.0.tgz#6e3c4e21ed6393dc05b9d8b47f0b7e731ef21c9c"
+  integrity sha512-H78M+jcu5Tf6m/5N8iiFblUUv+HJDguMSdFfzwa6vSg9lKR8Mk9BsgeSjO8l2EshKnJKcbv0e8IDDOvSNjl0EA==
   dependencies:
     "@types/eslint-visitor-keys" "^1.0.0"
-    "@typescript-eslint/experimental-utils" "2.21.0"
-    "@typescript-eslint/typescript-estree" "2.21.0"
+    "@typescript-eslint/experimental-utils" "2.29.0"
+    "@typescript-eslint/typescript-estree" "2.29.0"
     eslint-visitor-keys "^1.1.0"
 
 "@typescript-eslint/typescript-estree@2.20.0":
@@ -1535,6 +1535,19 @@
   version "2.21.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-2.21.0.tgz#7e4be29f2e338195a2e8c818949ed0ff727cc943"
   integrity sha512-NC/nogZNb9IK2MEFQqyDBAciOT8Lp8O3KgAfvHx2Skx6WBo+KmDqlU3R9KxHONaijfTIKtojRe3SZQyMjr3wBw==
+  dependencies:
+    debug "^4.1.1"
+    eslint-visitor-keys "^1.1.0"
+    glob "^7.1.6"
+    is-glob "^4.0.1"
+    lodash "^4.17.15"
+    semver "^6.3.0"
+    tsutils "^3.17.1"
+
+"@typescript-eslint/typescript-estree@2.29.0":
+  version "2.29.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-2.29.0.tgz#1be6612bb02fc37ac9f466521c1459a4744e8d3a"
+  integrity sha512-3YGbtnWy4az16Egy5Fj5CckkVlpIh0MADtAQza+jiMADRSKkjdpzZp/5WuvwK/Qib3Z0HtzrDFeWanS99dNhnA==
   dependencies:
     debug "^4.1.1"
     eslint-visitor-keys "^1.1.0"
